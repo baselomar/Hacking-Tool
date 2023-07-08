@@ -1,5 +1,6 @@
-clear
+
 import os
+os.clear
 print("\n")
 print("\n")
 print("\n")
