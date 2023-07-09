@@ -15,7 +15,12 @@ printf "                             \e[1;97m  .:.  Version 1.0 Beta  .:.   \e[0
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Basel Omar \e[0m\n"
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96  Show My Ip & HN\e[0m      \e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[0m\e[1;96m Ip Info   \e[0m          \e[1;92m[\e[0m\e[1;77m3\e[0m\e[1;92m]\e[0m\e[1;96m Get Insta User   \e[0m   \n"  
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m  Show My Ip & HN\e[0m      \e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Ip Info   \e[0m          \e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;96m Get Insta User   \e[0m   \n"
+
+printf "\n" 
+
+printf "\n"
+printf "\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\e' menu_option
 
 
