@@ -2,9 +2,6 @@
 #This Tool By Basel
 #Dont Copy The Code ;;D
 clear
-## ANSI colors (FG & BG)
-RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
-
 printf "\n"
 printf "\n"
 printf "\n" 
