@@ -11,7 +11,7 @@ REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf
 MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
 RESETBG="$(printf '\e[0m\n')"
 
-printf "                             \e[1;97m  .:.  Version 1.0 Beta  .:.   \e[0m\n"
+printf "                          ${RED}  .:.  Version 1.0 Beta  .:.   \e[0m\n"${RESETBG}
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Basel Omar \e[0m\n"
 printf "\n"
