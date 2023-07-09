@@ -11,6 +11,7 @@ RESETBG="$(printf '\e[0m\n')"
 printf "\n"
 printf "\n"
 printf "\n" 
+banner() {
 echo '
 ██████╗  █████╗ ███████╗███████╗██╗     
 ██╔══██╗██╔══██╗██╔════╝██╔════╝██║     
@@ -20,7 +21,7 @@ echo '
 ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
                                         
 ' |lolcat
-
+}
 main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
