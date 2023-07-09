@@ -21,3 +21,4 @@ echo '
   '    |lolcat                                                                      
 
 }
+banner
