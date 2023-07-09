@@ -1,4 +1,7 @@
 # = = = = = = = = = = =
+#This Tool By Basel
+#Dont Copy The Code ;;D
+clear
 printf "\n"
 printf "\n"
 printf "\n" 
