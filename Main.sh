@@ -14,7 +14,7 @@ bash Setup.sh
 printf "\n"
 printf "\n"
 menu() {
-printf "       \033[31m[\033[39m01\033[31m]\033[36m • Facebook \033[39m               \033[31m[\033[39m02\033[31m]\033[36m • Test   "
+printf "       \033[31m[\033[39m01\033[31m]\033[32m • Facebook \033[39m               \033[31m[\033[39m02\033[31m]\033[32m • Test   "
 printf "\n"
 printf "\n"
 printf "\n"
