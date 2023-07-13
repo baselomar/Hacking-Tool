@@ -6,7 +6,6 @@ os.system("cd $HOME")
 os.system("rm -rf Hacking-Tool")
 os.system("git clone https://github.com/baselomar/Hacking-Tool")
 os.system("cd Hacking-Tool")
-os.system("bash Main.sh")
 print (''' 
 ____________________   ___________
 ___  __ \_  __ \__  | / /__  ____/
@@ -15,3 +14,7 @@ _  /_/ // /_/ /_  /|  / _  /___
 /_____/ \____/ /_/ |_/  /_____/   
                                   
 ''')
+
+sleep 3
+
+os.system("bash Main.sh")
