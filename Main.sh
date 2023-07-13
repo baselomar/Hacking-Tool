@@ -1,4 +1,4 @@
-clear
+toclear
 bash Setup.sh
 
 
@@ -14,7 +14,7 @@ bash Setup.sh
 printf "\n"
 printf "\n"
 menu() {
-printf "\033[31m[\033[39m1\033[31m]\033[34m • Facebook \033[39m"
+printf "\033[31m[\033[39m1\033[31m]\033[36m • Facebook \033[39m"
 printf "\n"
 }
 menu
