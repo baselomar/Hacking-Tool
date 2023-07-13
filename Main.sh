@@ -16,5 +16,6 @@ printf "\n"
 menu() {
 printf "\033[31m[\033[39m01\033[31m]\033[36m • Facebook \033[39m"
 printf "\n"
+read -p "\033[31mEnter Number\033[33m :\033[36m"
 }
 menu
