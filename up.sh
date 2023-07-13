@@ -23,7 +23,7 @@ echo \033[1;33m "
 printf "\n"
 printf "\n"
 printf "\n"
-printf "                         \033[2;34m    Now Pls Run *cd Hacking-Tool * And *bash Main.sh * "
+printf "                         \e[0m\e[1;42m    Now Pls Run *cd Hacking-Tool * And *bash Main.sh * "
 printf "\n"
 printf "\n"
 
