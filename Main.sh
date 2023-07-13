@@ -1,6 +1,8 @@
 toclear
 bash Setup.sh
-
+trap 'printf "\n";stop;exit 1' 2
+trap user_interrupt SIGINT
+trap user_interrupt SIGTSTP
 
 #colors
 #RED     = '\033[31m'
