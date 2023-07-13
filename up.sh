@@ -30,4 +30,7 @@ printf "\n"
 printf "\n"
 
 sleep 3
+cd $HOME
+sleep 1
+cd Hacking-Tool
                                    
