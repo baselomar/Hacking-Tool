@@ -1,5 +1,5 @@
 clear
-bash setup.sh
+bash Setup.sh
 
 #colors
 
