@@ -64,7 +64,7 @@ printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;
 
 sleep 1
 
-bash ipaddr.sh
+bash Main.sh
 
 fi
 
