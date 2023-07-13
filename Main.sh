@@ -11,6 +11,14 @@ bash Setup.sh
 #CYAN    = '\033[36m'
 #WHITE   = '\033[37m'
 #RESET   = '\033[39m'
+user_interrupt(){
+        printf "\e[0m\n"
+        printf "\e[0m\e[1;36m\t                    CTRL + C Pressed !!\n"
+        sleep 2
+        printf "\e[0m\n"
+        printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/baselomar For More\e[0m\n"
+        printf "\e[0m\n"
+        }
 printf "\n"
 printf "\n"
 menu() {
