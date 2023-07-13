@@ -9,7 +9,9 @@ git clone https://github.com/baselomar/Hacking-Tool
 sleep 2.7
 clear
 cd $HOME
-
+printf "\n"
+printf "\n"
+printf "\n"
 echo \033[1;33m "
               ██████╗  ██████╗ ███╗   ██╗███████╗
               ██╔══██╗██╔═══██╗████╗  ██║██╔════╝
