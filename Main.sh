@@ -52,4 +52,10 @@ printf "\n"
 printf "\n"
 read -p $'\033[31mEnter Number \033[33m: \e[0m' option
 }
+if [[ $option == 1 || $option == 01 ]]; then
+
+bash ipaddr.sh
+
+elif [[ $option == 2 || $option == 02 ]]; then
+bash ipaddr.sh
 menu
