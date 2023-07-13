@@ -1,3 +1,5 @@
+clear
+sleep 1
 banner() {
 printf "\n"
 printf "\n"
@@ -46,9 +48,7 @@ elif [[ $option == 2 || $option == 02 ]]; then
 useripaddr
 elif [[ $option == 0 || $option == 00 ]]; then
 sleep 1
-printf "\e[0m\n"
-printf "\e[0m\n"
-exit 1
+bash Main.sh
 
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
@@ -110,9 +110,8 @@ if [[ $mainorexit1 == 1 || $mainorexit1 == 01 ]]; then
 banner
 menu
 elif [[ $mainorexit1 == 2 || $mainorexit1 == 02 ]]; then
-printf "\e[0m\n"
-printf "\e[0m\n"
-exit 1
+sleep 1
+bash Main.sh
 
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
@@ -181,9 +180,7 @@ if [[ $mainorexit2 == 1 || $mainorexit2 == 01 ]]; then
 banner
 menu
 elif [[ $mainorexit2 == 2 || $mainorexit2 == 02 ]]; then
-printf "\e[0m\n"
-printf "\e[0m\n"
-exit 1
+bash Main.sh
 
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
