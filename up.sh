@@ -22,5 +22,12 @@ echo '
 ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 '
+
+printf "\n"
+printf "\n"
+printf "\n"
+printf "                         \033[2;34m    Now Pls Run *cd Hacking-Tool * And *bash Main.sh * "
+
+
 sleep 3
                                    
