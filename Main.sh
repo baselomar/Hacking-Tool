@@ -40,6 +40,16 @@ printf "\n"
 printf "\n"
 printf "\n"
 printf "\n"
+printf "       \033[31m[\033[39m06\033[31m]\033[32m • More About As \033[39m                    \033[31m[\033[39m07\033[31m]\033[32m • Update Tool  "
+printf "\n"
+printf "\n"
+printf "\n"
+printf "\n"
+printf "       \033[31m[\033[39m00\033[31m]\033[32m • Exit"
+printf "\n"
+printf "\n"
+printf "\n"
+printf "\n"
 read -p $'\033[31mEnter Number \033[33m: \e[0m' option
 }
 menu
