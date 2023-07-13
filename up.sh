@@ -1,5 +1,5 @@
 clear
-printf " Follow Me In Insta @wa7sh.104"
+
 printf "✓ The Update Is Starting Now"
 sleep 2.1
 echo \033[1;31m'
