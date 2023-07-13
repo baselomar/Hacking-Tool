@@ -2,7 +2,7 @@ clear
 
 sleep 2.1
 
-python s.py
+bash s.sh
 cd $HOME
 rm -rf Hacking-Tool
 git clone https://github.com/baselomar/Hacking-Tool
