@@ -24,7 +24,12 @@ user_interrupt(){
 printf "\n"
 printf "\n"
 menu() {
-printf "       \033[31m[\033[39m01\033[31m]\033[32m • Facebook \033[39m               \033[31m[\033[39m02\033[31m]\033[32m • Test   "
+printf "       \033[31m[\033[39m01\033[31m]\033[32m • My Ip Info \033[39m               \033[31m[\033[39m02\033[31m]\033[32m • Ip Info   "
+printf "\n"
+printf "\n"
+printf "\n"
+printf "\n"
+printf "       \033[31m[\033[39m01\033[31m]\033[32m • Insta User Checker \033[39m               \033[31m[\033[39m02\033[31m]\033[32m • Insta Attack  "
 printf "\n"
 printf "\n"
 printf "\n"
