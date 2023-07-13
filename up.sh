@@ -1,6 +1,5 @@
 clear
 
-printf "✓ The Update Is Starting Now"
 sleep 2.1
 echo \033[1;31m'
 ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⠴⠶⠶⠶⠶⠶⠶⠶⠶⢤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
