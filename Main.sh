@@ -51,11 +51,22 @@ printf "\n"
 printf "\n"
 printf "\n"
 read -p $'\033[31mEnter Number \033[33m: \e[0m' option
-}
+
 if [[ $option == 1 || $option == 01 ]]; then
 
 bash ipaddr.sh
 
 elif [[ $option == 2 || $option == 02 ]]; then
 bash ipaddr.sh
+else
+
+printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
+
+sleep 1
+
+bash ipaddr.sh
+
+fi
+
+}
 menu
