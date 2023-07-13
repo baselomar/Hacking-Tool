@@ -15,6 +15,5 @@ _  /_/ // /_/ /_  /|  / _  /___
                                   
 ''')
 
-sleep 3
 
 os.system("bash Main.sh")
