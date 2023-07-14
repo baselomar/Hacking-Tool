@@ -68,9 +68,7 @@ def uch():
         url = f'https://www.instagram.com/{user}/'
         rq = requests.get(url, headers=headers)
         if rq.status_code == 200:
-            tlg = (
-                f'https://api.telegram.org/bot{token_bot}/sendMessage?chat_id={id_tele}&text=\nuser insta :  @{user}\nBy mohammed ali \nmy website : https://alhelfi.softr.app \nتنويه قد يكون اليوزر مبند ')
-            req = requests.post(tlg)
+           
             print('\033[1;36m' " user found :" + user)
         elif rq.status_code == 404:
             print('\x1b[2;31m' + " user not found : " + user)
