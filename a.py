@@ -2,14 +2,7 @@ import requests
 import socket
 import random
 #colors
-RED     = '\033[31m'
-GREEN   = '\033[32m'
-YELLOW  = '\033[33m'
-BLUE    = '\033[34m'
-MAGENTA = '\033[35m'
-CYAN    = '\033[36m'
-WHITE   = '\033[37m'
-RESET   = '\033[39m'
+
 id_tele = ('5787384124')
 token_bot = ('6072623812:AAF9-rTbhaHaD8zGHoYdYYJ730CvsJlHQr8')
 print ('''\033[31m
