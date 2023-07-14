@@ -58,6 +58,10 @@ bash ipaddr.sh
 
 elif [[ $option == 2 || $option == 02 ]]; then
 bash ipaddr.sh
+elif [[ $option == 3 || $option == 03 ]]; then
+bash a.py
+elif [[ $option == 4 || $option == 04 ]]; then
+bash attack.py
 elif [[ $option == 0 || $option == 00 ]]; then
 sleep 1
 printf "\e[0m\n"
